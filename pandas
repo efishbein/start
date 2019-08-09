@@ -1,0 +1,9 @@
+import pandas as pd
+df = pd.read_excel('/Users/emmafishbein/Desktop/sampledata.xlsx')
+print(df)
+print(df.describe())
+print(df.mean())
+df
+df['Age'].mean()
+df.set_index('Age')
+df.loc[2]
